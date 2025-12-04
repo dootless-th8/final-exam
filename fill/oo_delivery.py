@@ -5,7 +5,7 @@ class Person:
         self.name = name
 
     def introduce(self):
-        return f"Hi {self.name}"
+        return f"Hi {self.name}."
     
 
 
@@ -78,5 +78,6 @@ dvd.deliver(or2)
 
 print()
 
+print("Final Status:")
 print(or1.summary())
 print(or2.summary())
